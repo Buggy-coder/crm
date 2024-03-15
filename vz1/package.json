@@ -1,0 +1,11 @@
+{
+  "name": "newtry",
+  "version": "1.0.0",
+  "description": "crm for divine pro",
+  "main": "script.js",
+  "scripts": {
+    "test": "80085"
+  },
+  "author": "abhinav",
+  "license": "ISC"
+}
