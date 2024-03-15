@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support Ticket System</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #9b59b6;
+      color: white;
+      padding: 10px;
+    }
+
+    .logo img {
+      max-width: 100px;
+    }
+
+    .navbar {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar li a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar-toggle {
+      display: none;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        display: none;
+        flex-direction: column;
+        padding-top: 10px;
+      }
+
+      .navbar.show {
+        display: block;
+      }
+
+      .navbar-toggle {
+        display: block;
+        margin-right: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="https://via.placeholder.com/100x50" alt="Logo"></a>
+      </div>
+      <div class="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="customer.html">Customer</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="mediagallery.html">Media Gallery</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="donation.html">Donation</a></li>
+        <li><a href="support-ticket.html">Support Ticket</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script>
+    // JavaScript code here if needed
+  </script>
+</body>
+</html>
